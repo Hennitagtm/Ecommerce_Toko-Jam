@@ -1,0 +1,8 @@
+== 1.0.1 - 2023-10-11 ==
+    -Fix: Mobile keyboard navigation.
+    -Fix: Jquery error issue.
+    -Imp: Design improvement done.
+    -Imp: Used local storage for site mode switcher.
+
+== 1.0.0 - 2023-10-04 ==
+    -New: Submit theme on wordpress.org trac.

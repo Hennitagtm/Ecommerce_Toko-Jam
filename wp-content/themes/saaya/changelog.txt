@@ -1,0 +1,65 @@
+== 1.1.2 - 2023-10-11 ==
+    -Fix: Mobile keyboard navigation.
+    -Imp: Mode switcher.
+    Design enhancement done.
+    Dark mode design enhancement done.
+
+== 1.1.1 - 2023-10-04 ==
+    -Imp: Compatible theme dashboard with child theme.
+
+== 1.1.0 - 2023-09-29 ==
+    -New: Dashboard UI design changed.
+    -Imp: Upgrade kirki framework version.
+    -Imp: Customizer layout enhanement done.
+    -New: Tooltips added in customizer layout.
+    -New: Dark version with site switch toggle in header added.
+    Design enhancement done.
+
+== 1.0.9 - 2022-09-13 ==
+    -New: Added block based widget design added.
+    -New: Added block based tag dynamic hover color added.
+
+== 1.0.8 - 2021-06-15 ==
+    -New: Arrow icon added in submenu.
+    -Fix: Wpadmin bar gaping issue fixed.
+    -Fix: 404 page responsive glitch fixed.
+
+== 1.0.7 - 2020-08-13 ==
+    -Fix: Jquery issue at wp color alpha.
+    -Fix: Keyboard navigation for primary menu and search bar.
+    -Fix: Responsive glitch.
+    -New: Added prefix for global variables and customizer control id.
+    -Imp: Removed unused function and demo json path from theme settings page.
+    -Imp: Removed unused files from the kirki framework.
+
+== 1.0.6 - 2020-05-28 ==
+    -Imp: Replaced welcome page with theme settings page.
+    -Fix: Responsive menu.
+    -Fix: Active callback function at banner section field.
+    -Imp: Updated .pot file.
+
+== 1.0.5 - 2019-11-22 ==
+    -Fix: Bugs at related posts section.
+
+== 1.0.4 - 2019-11-22 ==
+    -New: Added function 'wp_body_open'. 
+    -New: Added comments to the functions.
+    -New: Added TGM activation code.
+    -New: Some function hooks added in single post.
+
+== 1.0.3 - 2019-08-12 ==
+    -Imp: Changed some code in header text.
+    -Imp: Updated .pot file.
+
+== 1.0.2 - 2019-08-07 ==
+    -New: Added skip link for content.
+    -Imp: Updated scripts and style for keyboard navigation.
+    -Imp: Updated .pot file.
+    -New: Added Welcome Page.
+
+== 1.0.1 - 2019-06-07 ==
+    -Imp: Screenshot changed & added screenshot image URL on readme.txt
+    -New: Theme upsell button added at customizer section. 
+
+== 1.0.0 2019-06-01 ==
+    -New: Submit theme on wordpress.org trac.

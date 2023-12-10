@@ -1,0 +1,496 @@
+/*
+Theme Name:			Saaya Blogger
+Theme URI:    		https://mysterythemes.com/wp-themes/saaya-blogger/
+Author:       		Mystery Themes
+Author URI:   		https://mysterythemes.com/
+Description:  		Saaya Blogger is a sophisticated and feature-rich WordPress theme tailored for bloggers, writers, and content creators. With its elegant design and user-friendly features, it offers the perfect platform to express your thoughts and engage with your audience effectively.Saaya Blogger is Compatible with Gutenberg and GDPR, RTL and Translation ready, WooCommerce Compatible, SEO-Friendly and Compatible with all other popular plugins.Check the demo at https://demo.mysterythemes.com/child-theme/saaya-blogger/
+Version:            1.0.1
+Requires at least:  4.7
+Tested up to:       6.3
+Requires PHP:       5.6
+License:      		GNU General Public License v3 or later
+License URI:  		http://www.gnu.org/licenses/gpl-3.0.html
+Template:     		saaya
+Text Domain:  		saaya-blogger
+Tags:         		blog, portfolio, news, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, footer-widgets, post-formats, rtl-language-support, theme-options, translation-ready
+
+*/
+
+#page,
+.mt-logo-row-wrapper {
+  background: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 900;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.site-title {
+  font-size: 58px;
+}
+
+.site-branding {
+  float: none;
+  width: 100%;
+  text-align: center;
+  padding: 0 0 20px;
+}
+
+.site-description {
+  font-size: 18px;
+}
+
+#site-navigation ul li a {
+  padding: 0;
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #212121;
+  line-height: 40px;
+  border-bottom: 2px solid transparent;
+}
+
+#site-navigation ul li .sub-menu li a,
+#site-navigation ul li .children li a {
+  font-size: 16px;
+  margin-right: 0;
+  border-bottom: 2px solid #e1e1e1;
+}
+
+#site-navigation ul li:hover>a,
+#site-navigation ul li.current-menu-item>a,
+#site-navigation ul li.current_page_item>a,
+#site-navigation ul li.current-menu-ancestor>a,
+#site-navigation ul li.current_page_ancestor>a,
+#site-navigation ul li.focus>a {
+  color: #333 !important;
+  border-bottom: 2px solid #333 !important;
+}
+
+.mt-follow-title {
+  display: none;
+}
+
+.mt-social-search-wrapper {
+  margin: 7px 0;
+}
+
+.mt-social-wrapper {
+  margin: 0;
+}
+
+.mt-social-menu-wrapper {
+  float: none;
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+}
+
+.mt-social-icon-wrap li a,
+.mt-search-icon a {
+  font-size: 22px;
+}
+
+.mt-search-icon {
+  margin: 0 0 0 20px;
+}
+
+.trending-wrapper {
+  margin: 20px 0 40px !important;
+}
+
+.is-sticky .mt-social-menu-wrapper {
+  box-shadow: 0 0px 7px rgba(0, 0, 0, 0.1);
+}
+
+.is-sticky .mt-social-menu-wrapper::before,
+.is-sticky .mt-social-menu-wrapper::after {
+  width: 100%;
+  left: -100%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background: #fff;
+  box-shadow: -6px 0px 7px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  display: block;
+  content: "";
+}
+
+.is-sticky .mt-social-menu-wrapper:after {
+  left: auto;
+  right: -100%;
+  box-shadow: 6px 0px 7px rgba(0, 0, 0, 0.1);
+}
+
+#site-navigation #primary-menu>li:first-child>a {
+  padding-left: 0;
+}
+
+.banner-content-wrapper {
+  background-position: center center !important;
+  height: 600px;
+}
+
+.banner-title-btn-wrapper {
+  background: rgba(0, 0, 0, 0.6);
+  left: 50%;
+  width: 60%;
+  top: 50%;
+  height: auto;
+  padding: 30px;
+  transform: translate(-50%, -50%);
+}
+
+.banner-sub-title {
+  font-size: 18px;
+}
+
+.banner-title {
+  color: #fff;
+  font-size: 62px;
+}
+
+.btn-wrapper a {
+  color: #fff;
+  font-size: 16px;
+}
+
+.entry-title {
+  font-size: 22px;
+}
+
+#secondary .widget .widget-title,
+.mt-related-post-title,
+#colophon .widget .widget-title {
+  font-size: 15px;
+}
+
+#top-footer {
+  padding: 80px 0 20px;
+  background: #333333;
+}
+
+#top-footer .mt-footer-widget-wrapper {
+  margin-bottom: 0;
+}
+
+.trending-wrapper {
+  margin-bottom: 25px;
+}
+
+.trending-wrapper .wrap-label {
+  background: #212121;
+  color: #fff;
+  padding: 14px 20px;
+  margin-right: 20px;
+  text-align: center;
+  border-radius: 25px 0 0 25px;
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-block;
+  width: 15%;
+}
+
+.trending-wrapper .tags-wrapper {
+  word-wrap: break-word;
+  width: 80%;
+  padding: 14px 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tags-wrapper a {
+  font-weight: 700;
+  color: #212121;
+  margin-right: 16px;
+  font-size: 18px;
+}
+
+.tags-wrapper a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.tags-wrapper a::before {
+  content: "#";
+}
+
+.trending-wrapper .mt-container {
+  background: #FFDD00;
+  display: block;
+  align-items: center;
+  border-radius: 30px;
+}
+
+#primary article,
+.widget {
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.04);
+  border: 3px solid #212121;
+  background: #fff;
+  position: relative;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+#primary article::before,
+.widget:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: -9px;
+  bottom: -9px;
+  border-bottom: 6px solid #262626;
+  border-right: 6px solid #262626;
+  z-index: -9;
+}
+
+.entry-title a {
+  font-size: 32px;
+}
+
+.entry-content {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.entry-cat span a {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+article.hentry .entry-footer>span {
+  font-size: 15px;
+}
+
+.entry-footer .mt-readmore-btn,
+.btn-wrapper a,
+.mt-readmore-btn {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#bottom-footer {
+  background: #414141;
+  padding: 15px 0;
+  color: #fff;
+}
+
+.navigation.pagination .nav-links a.page-numbers {
+  background: #ffff;
+  border: 2px solid #212121;
+  color: #212121;
+  font-weight: 700;
+}
+
+.navigation.pagination .nav-links .page-numbers.current,
+.navigation.pagination .nav-links a.page-numbers:hover {
+  background: #FFDD00;
+  color: #333 !important;
+  border: 2px solid #212121 !important;
+}
+
+.widget_archive a,
+.widget_categories a,
+.widget_recent_entries a,
+.widget_meta a,
+.widget_recent_comments li,
+.widget_rss li,
+.widget_pages li a,
+.widget_nav_menu li a,
+.wp-block-latest-posts li a,
+.wp-block-archives li a,
+.wp-block-categories li a,
+.wp-block-page-list li a,
+.wp-block-latest-comments li {
+  font-size: 16px;
+}
+
+.site-info {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.entry-header,
+.entry-cat,
+.entry-content,
+.entry-footer {
+  padding: 0 20px;
+}
+
+.mt-saaya-site-mode-wrap {
+  margin: 10px 30px 0 0px;
+}
+
+.site-mode--dark #primary article,
+.site-mode--dark .widget {
+  background: #212121;
+  border-color: #fff;
+}
+
+#site-navigation ul li a::after {
+  display: none;
+}
+
+.site-mode--dark #site-navigation ul li:hover>a,
+.site-mode--dark #site-navigation ul li.current-menu-item>a,
+.site-mode--dark #site-navigation ul li.current_page_ancestor>a,
+.site-mode--dark #site-navigation ul li.current_page_item>a {
+  color: #fff !important;
+  border-bottom-color: #fff;
+}
+
+.site-mode--dark #primary article::before,
+.site-mode--dark .widget::before {
+  border-bottom-color: #bfbfbf;
+  border-right-color: #bfbfbf;
+}
+
+.site-mode--dark h1,
+.site-mode--dark h2,
+.site-mode--dark h3,
+.site-mode--dark h4,
+.site-mode--dark h5,
+.site-mode--dark h6 {
+  color: #ffffff;
+}
+
+.entry-cat {
+  padding-top: 20px;
+}
+
+.mt-author-box {
+  margin: 0 20px 0;
+}
+
+.entry-content a,
+.comment-content a {
+  text-decoration: underline;
+}
+
+.taxonomy-description {
+  color: #fff;
+  font-size: 20px;
+  margin: 10px 0 -10px;
+}
+
+.mt-saaya-site-mode-wrap a:focus {
+  outline: thin dotted #333;
+}
+
+@media (max-width:979px) {
+  #site-navigation ul li a {
+    margin-right: 0;
+  }
+
+  #site-navigation {
+    top: 100%;
+  }
+
+  #site-navigation ul li .sub-menu li a,
+  #site-navigation ul li .children li a {
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+    border-right: none;
+    line-height: 45px;
+    font-size: 20px;
+  }
+
+  .menu-toggle {
+    font-size: 22px;
+    margin-top: 8px;
+  }
+
+  #site-navigation ul li a.sub-toggle {
+    color: #fff !important;
+  }
+
+  #site-navigation ul li a.sub-toggle:focus,
+  #site-navigation ul li a.sub-toggle:hover {
+    background: #dcdcdc;
+    color: #fff;
+  }
+
+}
+
+@media (max-width:768px) {
+  .banner-title {
+    font-size: 36px;
+  }
+
+  .banner-title-btn-wrapper {
+    padding: 10px;
+    width: 80%;
+  }
+
+  .banner-content-wrapper {
+    height: 450px;
+  }
+
+  .trending-wrapper .mt-container {
+    display: block;
+  }
+
+  .trending-wrapper .wrap-label {
+    width: 100%;
+    display: block;
+  }
+
+  .trending-wrapper .tags-wrapper {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .trending-wrapper .wrap-label {
+    border-radius: 30px;
+  }
+
+}
+
+@media (max-width:600px) {
+  .trending-wrapper .mt-container {
+    background: none;
+  }
+
+  .trending-wrapper .wrap-label {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .trending-wrapper .tags-wrapper {
+    display: block;
+    text-align: center;
+  }
+
+  .tags-wrapper a {
+    display: inline-block;
+  }
+
+  body.logged-in {
+    margin-top: -50px;
+  }
+
+  .logged-in .is-sticky .mt-social-menu-wrapper {
+    top: 0 !important;
+  }
+
+  .site-title {
+    font-size: 34px;
+    margin-bottom: -20px;
+  }
+
+}
